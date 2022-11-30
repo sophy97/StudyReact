@@ -1,7 +1,9 @@
 import './App.css';
-import StateBox from './components/StateBox';
-import TestState from './components/TestState';
-import PropsParent from './components/PropsParent';
+// import StateBox from './components/StateBox';
+// import TestState from './components/TestState';
+// import PropsParent from './components/PropsParent';
+// import EventBox from './components/EventBox';
+import TestEvent from './components/TestEvent';
 /**
  * App 안에 원하는 내용 바로 작성 가능하지만,
  * 각 내용을 컴포넌트로 만들어서 화면에 출력하는 방식을 주로 사용
@@ -16,14 +18,14 @@ function App() {
   // return내부 실행 순서 >> 위->아래
   // 오류 발생 시 화면 전체가 출력되지 않는다
     <div className="App">
-      <StateBox /> 
+      {/* <StateBox /> 
       <PropsParent />
-      <TestState />
-      
+      <TestState /> */}
+      {/* <EventBox /> */}
+      <TestEvent />
     </div>
   );
 }
-
 
 
 // export를 통해 '모듈 형식'으로 함수나 변수를 내보내줄 수 있다

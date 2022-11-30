@@ -18,8 +18,8 @@ const PropsParent = () => {
                 onClick={()=>{console.log("클릭했음")}}
                 > 
                 태그 사이 들어가는 값 : {count} <br/>
-                태그도 들어갈 수 있다. 컴포넌트도 가능! <br/>
-                map으로 컴포넌트를 children으로 넘겨줄 수도 있다
+                태그 사이값도 전달 가능. 컴포넌트도 전달 가능! <br/>
+                +map으로 컴포넌트를 'children'으로 넘겨줄 수도 있다
                 {/* <StateBox/> */}
             </PropsChildren>
         </div>

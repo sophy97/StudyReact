@@ -9,7 +9,7 @@ const PropsChildren = (props) => {
     // > props.name 등의 사용이 귀찮으면 구조화 분해 > 변수처럼 사용
     const {name, count, setCount, onClick} = props;
     
-    // children은 태그와 태그 사이에 작성한 값을 들고온다!
+    // children은 태그와 태그 사이에 작성한 값을 들고온다! (위에 같이 들고와도 됨)
     const {children} = props;
     
     
