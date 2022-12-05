@@ -11,8 +11,10 @@ let name= "a";  // 화면에 출력되지 않으나 많이 바뀌는 값에 사�
 
 const EventBox = () => {
     const [changeName, setChangeName] = useState("");
-    const [clickName, setClickName] = useState("");    // state changeName 받아옴
-    const [varName, setvarName] = useState("");        // 변수 name 받아옴
+    // state changeName 받아옴
+    const [clickName, setClickName] = useState("");
+     // 변수 name 받아옴
+    const [varName, setvarName] = useState("");       
 
     
     const funcName =(n)=>{
