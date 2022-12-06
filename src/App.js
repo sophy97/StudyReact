@@ -1,4 +1,6 @@
 import './App.css';
+// import APIComp from './components/APIComp';
+import TestAPI from './components/TestAPI';
 // import EventOBJ from './components/EventOBJ';
 // import Hook from './components/Hook';
 // import StateBox from './components/StateBox';
@@ -6,7 +8,7 @@ import './App.css';
 // import PropsParent from './components/PropsParent';
 // import EventBox from './components/EventBox';
 // import TestEvent from './components/TestEvent';
-import TestHook from './components/TestHook';
+// import TestHook from './components/TestHook';
 /**
  * App 안에 원하는 내용 바로 작성 가능하지만,
  * 각 내용을 컴포넌트로 만들어서 화면에 출력하는 방식을 주로 사용
@@ -28,7 +30,9 @@ function App() {
       {/* <TestEvent /> */}
       {/* <EventOBJ /> */}
       {/* <Hook /> */}
-      <TestHook />
+      {/* <TestHook /> */}
+      {/* <APIComp /> */}
+      <TestAPI />
 
     </div>
   );
