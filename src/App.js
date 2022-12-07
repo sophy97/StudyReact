@@ -1,6 +1,8 @@
 import './App.css';
+// import RootIndex from './page/RootIndex';
+import TestRootIndex from './page/TestRootIndex';
 // import APIComp from './components/APIComp';
-import TestAPI from './components/TestAPI';
+// import TestAPI from './components/TestAPI';
 // import EventOBJ from './components/EventOBJ';
 // import Hook from './components/Hook';
 // import StateBox from './components/StateBox';
@@ -32,7 +34,9 @@ function App() {
       {/* <Hook /> */}
       {/* <TestHook /> */}
       {/* <APIComp /> */}
-      <TestAPI />
+      {/* <TestAPI /> */}
+      {/* <RootIndex /> */}
+      <TestRootIndex />
 
     </div>
   );

@@ -29,28 +29,21 @@ const TestAPI = () => {
             {/* 필요한 값을 전달하여 url의 내용을 채울 수 있게 작성 */}
             <button onClick={ ()=>{getData("us")} }>US</button>
             <button onClick={ ()=>{getData("fr")} }>FR</button>
-
-            {/* 아래에 map으로 기사 출력하기 */}
-            {/* {news &&
-            news.sources.map((source, idx)=>(
-                <div key={idx}>
-                    <p>{source.name}</p>
-                    <li>{source.description}</li>
-                </div> ))
-            } */}
             <hr />
             {/** 추가!
              *  값이 들어왔지만 배열에 값이 없을 경우,
              *  삼항 연산자 안에 또 삼항연산자가 들어갈수 있다
             */}
-            {
-                news && news.sources.length>0 ?
-                news.sources.map((source, idx)=>(
+            {   // news에 값이 있다면 출력한다
+                news &&
+                    // news의 길이가 0보다 길면 ? 참 : 거짓
+                    news.sources.length>0 ?
+                    news.sources.map((source, idx)=>(
                     <div key={idx}>
                         <h4>{source.name}</h4>
                         <li>{source.description}</li>
                     </div>
-                ))
+                            ))
                 : "검색 결과가 없습니다"
             }
 
