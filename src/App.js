@@ -1,6 +1,6 @@
 import './App.css';
-// import RootIndex from './page/RootIndex';
-import TestRootIndex from './page/TestRootIndex';
+import RootIndex from './page/RootIndex';
+//import TestRootIndex from './page/TestRootIndex';
 // import APIComp from './components/APIComp';
 // import TestAPI from './components/TestAPI';
 // import EventOBJ from './components/EventOBJ';
@@ -35,8 +35,8 @@ function App() {
       {/* <TestHook /> */}
       {/* <APIComp /> */}
       {/* <TestAPI /> */}
-      {/* <RootIndex /> */}
-      <TestRootIndex />
+      <RootIndex />
+      {/* <TestRootIndex /> */}
 
     </div>
   );

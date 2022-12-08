@@ -52,7 +52,8 @@ const RootIndex = () => {
                     이처럼 params값을 사용한 주소는 어떤 값이 들어와도 같은 컴포넌트 출력!
                 */}
                 <Route path="/board" element={<Board />} >
-                    <Route path='/board/:id' element={<BoardPage />} />
+                    <Route path='/board/:id' element={<BoardPage name="게시판" />} />
+                    <Route path='/board/about' element={<About />} />
                 </Route>
             </Routes>
         </BrowserRouter>

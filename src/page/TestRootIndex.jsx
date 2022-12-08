@@ -15,7 +15,7 @@ const TestRootIndex = () => {
                 <Route path="/board" element={<Board />}>
                 
                 {/** path='/board/' 에 params 값으로 page을 사용하여 
-                 *   BoardPage 컴포넌트 출력 - Board/BoardPage 컴포넌트 수정필요
+                 *   BoardPage 컴포넌트 출력 - BoardPage 컴포넌트 수정필요
                  *   아울렛 사용*/}
                     <Route path="/board/:page" element={<BoardPage />} />
                 </Route>

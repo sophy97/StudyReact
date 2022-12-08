@@ -5,3 +5,8 @@
 .T-state, .T-props {
   background-color: antiquewhite;
 }
+
+/* Link 관한 디자인은 a태그를 수정해야 함 */
+a {
+  text-decoration: none;
+}
