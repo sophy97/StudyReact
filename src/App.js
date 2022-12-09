@@ -1,5 +1,6 @@
 import './App.css';
-import RootIndex from './page/RootIndex';
+// import RootIndex from './page/RootIndex';
+import StoreIndex from './Redux/StoreIndex';
 //import TestRootIndex from './page/TestRootIndex';
 // import APIComp from './components/APIComp';
 // import TestAPI from './components/TestAPI';
@@ -35,8 +36,9 @@ function App() {
       {/* <TestHook /> */}
       {/* <APIComp /> */}
       {/* <TestAPI /> */}
-      <RootIndex />
+      {/* <RootIndex /> */}
       {/* <TestRootIndex /> */}
+      <StoreIndex />
 
     </div>
   );

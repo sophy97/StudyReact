@@ -13,6 +13,9 @@ import Home from "./Home";
 import Error from "./Error";
 import Board from "./Board";
 import BoardPage from "./BoardPage";
+import LinkState from "./LinkState";
+import LocationState from "./LocationState";
+import QueryString from "./QueryString";
 
 const RootIndex = () => {
     return ( 
@@ -32,6 +35,9 @@ const RootIndex = () => {
                     : 기본주소-가장 처음 위치 나타냄 (자신을 감싸고 있는 path=about) */}
                     <Route index element={<AboutMain />}></Route>
                 </Route>
+                <Route path="/link" element={<LinkState />} />
+                <Route path="/location" element={<LocationState />} />
+                <Route path="/query" element={<QueryString />} />
                 {/* 전체 페이지 탐색해서 없는 경로 접근하면 에러 컴포넌트 띄움 */}
                 <Route path="*" element={<Error />} />
             </Routes>
@@ -56,6 +62,9 @@ const RootIndex = () => {
                     <Route path='/board/about' element={<About />} />
                 </Route>
             </Routes>
+
+
+
         </BrowserRouter>
     );
 }
