@@ -10,7 +10,6 @@ const NumberBox = () => {
     number.js의 state객체 > number의 숫자값을 가져옴 
     */
 
-    
     /** 값을 가져올때 그 값 확인하지 않으므로 이름을 잘 확인 
      *  값이 없는 내용 들고오면 undefined
     */
