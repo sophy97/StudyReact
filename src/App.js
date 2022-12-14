@@ -1,7 +1,8 @@
 import './App.css';
+import ReduxToolkitIndex from './ReduxToolkit/ReduxToolkitInedx';
 // import RootIndex from './page/RootIndex';
-import StoreIndex from './Redux/StoreIndex';
-//import TestRootIndex from './page/TestRootIndex';
+// import StoreIndex from './Redux/StoreIndex';
+// import TestRootIndex from './page/TestRootIndex';
 // import APIComp from './components/APIComp';
 // import TestAPI from './components/TestAPI';
 // import EventOBJ from './components/EventOBJ';
@@ -38,7 +39,8 @@ function App() {
       {/* <TestAPI /> */}
       {/* <RootIndex /> */}
       {/* <TestRootIndex /> */}
-      <StoreIndex />
+      {/* <StoreIndex /> */}
+      <ReduxToolkitIndex />
 
     </div>
   );
